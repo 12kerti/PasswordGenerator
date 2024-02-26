@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(148 166 160);
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(205, 203, 203);
+    background-color: rgb(25, 33, 33);
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#pass-box{
+    width: 90%;
+    display: block;
+    font-size: 30px;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content:space-between;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.label{
+    user-select: none;
+}
+#btn{
+    width: 100%;
+    font-size: 20px;
+    background-color: antiquewhite;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px
+}
